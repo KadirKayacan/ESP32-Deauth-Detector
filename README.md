@@ -32,8 +32,8 @@ Araç, 1–13 kanalları arasında sürekli **kanal hopping** yaparak tüm bantt
 ## Kurulum
 
 ```bash
-git clone https://github.com/USERNAME/esp32-deauth-detector.git
-cd esp32-deauth-detector
+git clone https://github.com/KadirKayacan/ESP32-Deauth-Detector.git
+cd ESP32-Deauth-Detector
 
 # PlatformIO kullanıyorsan:
 pio run --target upload
@@ -96,24 +96,21 @@ void loop() {
 ## Proje Yapısı
 
 ```text
-esp32-deauth-detector/
+ESP32-Deauth-Detector/
 ├── src/
 │   └── main.cpp          # Ana uygulama (sniffer callback + kanal hopping)
 ├── platformio.ini        # PlatformIO yapılandırması
-├── requirements.txt      # (Boş / yalnızca geliştirme araçları)
 ├── README.md
 ├── .gitignore
-└── LICENSE
 ```
 
 Arduino IDE kullanıyorsan dosya yapısı şu şekilde olur:
 
 ```text
-esp32-deauth-detector/
+ESP32-Deauth-Detector/
 ├── esp32_deauth_detector.ino
 ├── README.md
 ├── .gitignore
-└── LICENSE
 ```
 
 ## Teknik Detaylar
